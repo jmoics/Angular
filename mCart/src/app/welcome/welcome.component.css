@@ -1,0 +1,26 @@
+.shadow { /* la clase shadow aplica un efecto de sombra al texto de mCart */
+	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+}
+
+.logo-styles{ /* la clase logo-styles aplica las propiedades de ancho, tamaño de fuente y color al logotipo del carrito de compras */
+	width: 50px; 
+	font-size: 50px; 
+	color: #ff0080
+}
+
+.title-styles{ /* la clase title-styles aplica las propiedades CSS mencionadas al texto mCart */
+	text-align: center; 
+	color: #ff0080; 
+	font-size: 40px
+}
+
+.text-styles{ /* la clase text-styles aplica las propiedades CSS mencionadas al texto descriptivo representado en la parte inferior del componente de bienvenida */
+	color:#337ab7;
+	font-size: 15px
+}
+
+.container-styles{ /* la clase container-styles aplica las propiedades CSS mencionadas a todo el contenedor */
+	position: relative; 
+	top: 180px;
+	width:50%
+}
