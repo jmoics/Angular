@@ -1,0 +1,26 @@
+mCart es una aplicación de compras en línea que ayuda a sus usuarios a comprar dispositivos móviles y tabletas. 
+Esta aplicación permite a los usuarios iniciar sesión para comprar móviles y tabletas. Los usuarios pueden seleccionar los productos y agregarlos al carrito. 
+Una vez que se realiza la selección, los usuarios pueden ir a la página del carrito para realizar el pago. 
+Los usuarios pueden buscar un producto, ordenar la lista de productos según la calificación o el precio y pueden filtrar la lista de productos según el fabricante, el sistema operativo y el precio.
+
+Historias de usuarios
+- Inicie sesión en la aplicación para comprar tabletas / móviles
+- Busca un producto específico
+- Filtrar productos según el fabricante, el precio y el sistema operativo
+- Ver los detalles de un producto específico
+- Ordenar los productos según su popularidad y precio.
+- Agregar productos al carrito que quiero comprar
+- Cambiar la cantidad de productos seleccionados para la compra
+- Pago para cerrar la compra
+- Cerrar sesión de la aplicación
+
+Aprenderemos el curso Angular construyendo la aplicación mCart. A continuación se muestra la hoja de ruta para lograrlo.
+- Configurar el entorno de desarrollo para Angular.
+- Crear un componente y un módulo.
+- Utilizar directivas en la aplicación.
+- Implementar data binding en la aplicación.
+- Aplicar pipes en la aplicación.
+- Crear componentes anidados y compartir data entre ellos.
+- Añadir validaciones a los formularios en la aplicación.
+- Crear servicios en la aplicación.
+- Implementar routing en la aplicación.

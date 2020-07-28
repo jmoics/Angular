@@ -1,0 +1,33 @@
+Que es Angular?
+Single Page Applications (SPA):
+Un Single Page Application (SPA) es una aplicación web que interactúa con el usuario redibujando dinámicamente cualquier parte de la interfaz de usuario sin solicitar una nueva página completa del servidor.
+Por ejemplo: Amazon no es SPA, cada link recarga la página completa. Gmail es diferente, hay muchas interacciones que se manejan sin tener que refrescar toda la página. 
+Angular nos ayuda a crear SPAs, quienes cargarán contenido en un simple archivo HTML. Toda aplicación de escritorio vendría a ser SPA, ya que solo cambia el área requerida con el request del usuario.
+
+Ahora, comprendamos qué es Angular y qué tipo de aplicaciones se pueden construir con Angular:
+- Angular es un framework de JavaScript open source para construir aplicaciones web móviles y de escritorio
+- Angular se utiliza exclusivamente para crear Single Page Applications (SPA)
+- Angular se reescribió por completo y no es una actualización de Angular 1
+- Los desarrolladores prefieren TypeScript para escribir código angular. Pero aparte de TypeScript, también podemos escribir código usando JavaScript (ES5 o ECMAScript 5)
+
+¿Por qué la mayoría de los desarrolladores prefieren TypeScript para Angular?
+- TypeScript es la extensión de Microsoft para JavaScript que admite funciones orientadas a objetos y tiene un fuerte sistema de escritura que mejora la productividad
+- TypeScript admite muchas funcionalidades, como annotations, decorators, generics, etc. Un gran número de IDE como Sublime Text, Visual Studio Code, Nodeclipse, etc., están disponibles con soporte de TypeScript.
+- El código TypeScript se compila en código JavaScript utilizando herramientas de compilación como npm, bower, gulp, webpack, etc., para que el navegador entienda el código
+
+Discutamos las características de Angular
+- Más fácil de aprender: Angular es más moderno y más fácil de aprender para los desarrolladores. Es un framework más simplificado donde los desarrolladores se centrarán en escribir clases de JavaScript.
+- Buen soporte IDE: Angular está escrito en TypeScript, que es un superconjunto de JavaScript y admite todas las características de ECMAScript 6. Muchos IDEs como Eclipse, Microsoft Visual Studio, Sublime Text, etc., tienen un buen soporte para TypeScript.
+- Familiar: Angular ha conservado muchos de sus conceptos centrales de la versión anterior (Angular 1), aunque es una reescritura completa. Esto significa que a los desarrolladores que ya dominan Angular 1 les resultará fácil migrar a Angular.
+- Cross Plataform: Angular es una plataforma única que se puede usar para desarrollar aplicaciones para múltiples dispositivos.
+- Rendimiento: el rendimiento angular se ha mejorado mucho en la última versión. Esto se ha hecho agregando o eliminando automáticamente reflect-metadata del archivo polyfills.ts que hace que la aplicación sea más pequeña en producción.
+- Pequeño y rápido: el tamaño del paquete de producción de aplicaciones de angular se reduce en cientos de kilobytes debido a que se carga más rápido durante la ejecución.
+- Bundle budgets: la última versión de Angular aprovechará la función de bundle budgets en CLI que advertirá si el tamaño de la aplicación supera los 2 MB y generará errores si supera los 5 MB. Los desarrolladores pueden cambiar esto en angular.json
+- Simplicidad: Angular 1 tiene más de 70 directivas como ng-if, ng-model, etc., mientras que Angular tiene muy pocas directivas ya que usamos [] y () para enlaces en elementos HTML.
+- Basado en componentes
+- Angular sigue la programación basada en componentes, que es el futuro del desarrollo web. Cada componente que creamos está aislado de cualquier otra parte de nuestra aplicación. Este tipo de programación nos permite usar componentes escritos usando otros frameworks.
+- Dentro de un componente, escribimos tanto la lógica de negocios como la vista.
+- Cada aplicación angular tendrá un componente de nivel superior y varios subcomponentes.
+
+Angular se coloca en el lado del cliente en la pila completa de aplicaciones y proporciona una solución completamente del lado del cliente para el desarrollo rápido de aplicaciones. 
+Angular no tiene absolutamente ninguna dependencia y también funciona perfectamente con cualquier posible tecnología del lado del servidor como Java, NodeJS, PHP, etc. y se puede usar cualquier base de datos como MongoDB, MySql.
