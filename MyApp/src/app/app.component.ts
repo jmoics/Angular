@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({ // Agrega component decorator a la clase que hace que la clase sea un componente.
   selector: 'app-root', // Especifica el tag name que se utilizará en la página HTML para cargar el componente.
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent { // Cada componente es una clase (AppComponent) y export se utiliza para que sea accesible en otros componentes.
   title = 'MyApp'; // Crea una propiedad con el título y la inicializa para valorar 'aplicación'.
+
+  constructor(private _router: Router) {}
+
+  directives() {
+    this._router.navigate(['/directives']);
+  }
 }

@@ -1,0 +1,47 @@
+<h3>ngSwitch</h3>
+<div [ngSwitch]="value">
+  <p *ngSwitchCase="1">First Choice</p>
+  <p *ngSwitchCase="2">Second Choice</p>
+  <p *ngSwitchCase="3">Third Choice</p>
+  <p *ngSwitchCase="2">Second Choice Again</p>
+  <p *ngSwitchDefault>Default Choice</p>
+</div>
+<div> <button (click)='nextChoice()'>Next Choice</button></div>
+
+
+<h3>Structural Directive</h3>
+<p *appRepeat="5">I am being repeated...</p>
+
+<br><br>
+
+<h3>Structural Directive with exportAs property</h3>
+
+<ng-template appRepeat #rd="repeat" #ct="changeText">
+  <p>I am being repeated...</p>
+</ng-template>
+
+<button (click)="rd.repeatElement(5)">Repeat Element</button>
+<button (click)="ct.changeElementText(5)">Change Text</button>
+
+<h3>Directivas de Atributos</h3>
+<h4>ngStyle</h4>
+<div [style.background-color]="colorName" [style.color]="color">
+  Uses fixed yellow background
+</div>
+<p [ngStyle]="{
+  color:colorName,
+  'font-weight':fontWeight,
+  borderBottom: borderStyle
+}">
+Demo for attribute directive ngStyle
+</p>
+
+<br>
+<h4>ngClass</h4>
+<div [class.bordered]="isBordered">
+  Single CSS class Border {{ isBordered ? "ON" : "OFF" }}
+</div>
+<br>
+<div [ngClass]="{bordered: isBordered, color: isColor}">
+  Multiple CSS class Border {{ isBordered ? "ON" : "OFF" }}
+</div>
